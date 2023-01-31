@@ -12,4 +12,9 @@
 
 
 ## To Add admin Role 
-### just follow the roles in the backend route of users and use postman
+
+in the database  go to  "SQL" ( mysql) and those roles and hit go !
+
+INSERT INTO roles VALUES (1, 'user', now(), now());
+INSERT INTO roles VALUES (2, 'moderator', now(), now());
+INSERT INTO roles VALUES (3, 'admin', now(), now());
