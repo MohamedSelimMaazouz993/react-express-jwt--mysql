@@ -3,10 +3,9 @@ label {
   margin-top: 10px;
 }
 
-.login-form,
-.signup-form {
-  max-width: 350px;
-  margin: auto;
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
 }
 
 .card {
